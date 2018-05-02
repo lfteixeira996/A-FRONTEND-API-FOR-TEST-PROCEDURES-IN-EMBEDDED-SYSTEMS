@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="changelog" kind="page">
+    <compoundname>changelog</compoundname>
+    <title>Available Keywords</title>
+    <detaileddescription>
+<para><table rows="21" cols="2"><caption></caption>
+<row>
+<entry thead="yes"><para>Keywords </para></entry><entry thead="yes"><para>Package </para></entry></row>
+<row>
+<entry thead="no"><para>BaseTestSequence </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>init </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>init </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>start </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>launchDebugger </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>restartCsw </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>end </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>setInitCswStrategy </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>isCoverageInstrumented </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>createLogFile </para></entry><entry thead="no"><para>benchConfig.BaseTestSequence </para></entry></row>
+<row>
+<entry thead="no"><para>initGNSSRO </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>SpyPayload1s </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>SwitchOnGNSSAndSpy1s </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>ModifyGNSSforSA1 </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>ModifyGNSSforSA2 </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>SwitchOffGNSSAndSpy1s </para></entry><entry thead="no"><para>createdpackage.GNSSRO_01 </para></entry></row>
+<row>
+<entry thead="no"><para>initGNSSRO_02 </para></entry><entry thead="no"><para>createdpackage.GNSSRO_02 </para></entry></row>
+<row>
+<entry thead="no"><para>ConfUnitResponses </para></entry><entry thead="no"><para>createdpackage.GNSSRO_02 </para></entry></row>
+<row>
+<entry thead="no"><para>Modify1553ResponsesSet0 </para></entry><entry thead="no"><para>createdpackage.GNSSRO_02 </para></entry></row>
+<row>
+<entry thead="no"><para>Modify1553ResponsesSet1 </para></entry><entry thead="no"><para>createdpackage.GNSSRO_02 </para></entry></row>
+</table>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

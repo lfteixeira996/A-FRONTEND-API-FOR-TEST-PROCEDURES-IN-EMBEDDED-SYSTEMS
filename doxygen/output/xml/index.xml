@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classbench_config_1_1_base_test_sequence" kind="class"><name>benchConfig::BaseTestSequence</name>
+    <member refid="classbench_config_1_1_base_test_sequence_1ad36cb7812612f9bb17c3c75bf9e1a2f5" kind="variable"><name>mySelf</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a8759bbccd9a64fec851c87b6312a592d" kind="variable"><name>cswConfig</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aab80477391f01f40c27be8e97ef465af" kind="variable"><name>headerPrinted</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a984dfc16efd37c40ee1b7ee8181ab7b0" kind="variable"><name>startStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aac53fd46779e11407797d2ce47543ab1" kind="variable"><name>initCswStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aa71a1b6cec2dc9b18017cf3798600304" kind="variable"><name>initTestEnvStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a7989a74b654bc21ae8e531e1d753215d" kind="variable"><name>initEqptStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aaa5dc69430a328be66e0b357574b0453" kind="variable"><name>endCheckStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1af5ed50ef2f51ec752061596b4b868029" kind="function"><name>BaseTestSequence</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aa09f4eadf865f18954247f51ecd253a4" kind="function"><name>init</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a87060b3ab7a50dd1a9085956bb35f1a9" kind="function"><name>init</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a1ceb406f3824f594afe2ccbffd3ff251" kind="function"><name>start</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a75b96e9e471d56764db1825ce25a1426" kind="function"><name>launchDebugger</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a49710f0c34b7ccf8669a058749103fc1" kind="function"><name>restartCsw</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a8e3d35802313f0f8874c3b8c3c1a0241" kind="function"><name>end</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1aa6a3d1a846c4bde913b70f0ef445442d" kind="function"><name>setInitCswStrategy</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a4d780719e88ed823af26f5525d0a8700" kind="function"><name>isCoverageInstrumented</name></member>
+    <member refid="classbench_config_1_1_base_test_sequence_1a971e37e22e2583a7d970d73402ad1748" kind="function"><name>createLogFile</name></member>
+  </compound>
+  <compound refid="classcreatedpackage_1_1_g_n_s_s_r_o__01" kind="class"><name>createdpackage::GNSSRO_01</name>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af5413e6fb6aac922c3db3a5424bbc972" kind="function"><name>initGNSSRO</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1ae10c47bcebba81648835ef53c25cbca6" kind="function"><name>SpyPayload1s</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a2120275b5b90f64e9a813d8c25742973" kind="function"><name>SwitchOnGNSSAndSpy1s</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af2ef128d35d369063be5b06aa695b377" kind="function"><name>ModifyGNSSforSA1</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a3693233f1814bbb8dbbd1875801841b9" kind="function"><name>ModifyGNSSforSA2</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a93b8a5be27cffcf814d549b8737adf33" kind="function"><name>SwitchOffGNSSAndSpy1s</name></member>
+  </compound>
+  <compound refid="classcreatedpackage_1_1_g_n_s_s_r_o__02" kind="class"><name>createdpackage::GNSSRO_02</name>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a36919426789646333ea51328aad13265" kind="function"><name>initGNSSRO_02</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a3cf379a7d6d134b08b8f0bb6c595005c" kind="function"><name>ConfUnitResponses</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a71c4e2f15a247111cfec9b413a47678f" kind="function"><name>Modify1553ResponsesSet0</name></member>
+    <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a7d89cdb0b4793d398b6970fbeb0b99bf" kind="function"><name>Modify1553ResponsesSet1</name></member>
+  </compound>
+  <compound refid="namespacebench_config" kind="namespace"><name>benchConfig</name>
+  </compound>
+  <compound refid="namespacecreatedpackage" kind="namespace"><name>createdpackage</name>
+  </compound>
+  <compound refid="_base_test_sequence_8java" kind="file"><name>BaseTestSequence.java</name>
+  </compound>
+  <compound refid="_g_n_s_s_r_o__01_8java" kind="file"><name>GNSSRO_01.java</name>
+  </compound>
+  <compound refid="_g_n_s_s_r_o__02_8java" kind="file"><name>GNSSRO_02.java</name>
+  </compound>
+  <compound refid="_main_page_8txt" kind="file"><name>MainPage.txt</name>
+  </compound>
+  <compound refid="introduction" kind="page"><name>introduction</name>
+  </compound>
+  <compound refid="acronyms" kind="page"><name>acronyms</name>
+  </compound>
+  <compound refid="strategy" kind="page"><name>strategy</name>
+  </compound>
+  <compound refid="changelog" kind="page"><name>changelog</name>
+  </compound>
+  <compound refid="dir_ac4c04a577986ca16bbca2e557df7736" kind="dir"><name>benchConfig</name>
+  </compound>
+  <compound refid="dir_d3a1750055b4a4fd5e5d8bf8aee21c10" kind="dir"><name>createdpackage</name>
+  </compound>
+  <compound refid="dir_4e8d938e9ddb5a617c200d5739d1f41a" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_403c6a8d9e06b70fc1e83482d72e0353" kind="dir"><name>input</name>
+  </compound>
+  <compound refid="dir_9cb4215d57bc83e979cdc974485c43ed" kind="dir"><name>nsvf</name>
+  </compound>
+  <compound refid="dir_6a62ec769434a68e41dd2a535e3afb01" kind="dir"><name>s6csw</name>
+  </compound>
+  <compound refid="dir_d69805d50384a3fe420035fd610b992a" kind="dir"><name>simopsEnv</name>
+  </compound>
+  <compound refid="dir_6e9efbeac53aaaf57f209526956925bc" kind="dir"><name>svf</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

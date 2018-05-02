@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d3a1750055b4a4fd5e5d8bf8aee21c10" kind="dir">
+    <compoundname>createdpackage</compoundname>
+    <innerfile refid="_g_n_s_s_r_o__01_8java">GNSSRO_01.java</innerfile>
+    <innerfile refid="_g_n_s_s_r_o__02_8java">GNSSRO_02.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/"/>
+  </compounddef>
+</doxygen>

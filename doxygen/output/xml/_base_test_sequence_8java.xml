@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_base_test_sequence_8java" kind="file" language="Java">
+    <compoundname>BaseTestSequence.java</compoundname>
+    <innerclass refid="classbench_config_1_1_base_test_sequence" prot="public">benchConfig::BaseTestSequence</innerclass>
+    <innernamespace refid="namespacebench_config">benchConfig</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java"/>
+  </compounddef>
+</doxygen>

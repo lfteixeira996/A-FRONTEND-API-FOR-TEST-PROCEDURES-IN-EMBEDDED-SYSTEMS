@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcreatedpackage_1_1_g_n_s_s_r_o__01" kind="class" language="Java" prot="public">
+    <compoundname>createdpackage::GNSSRO_01</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af5413e6fb6aac922c3db3a5424bbc972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.initGNSSRO</definition>
+        <argsstring>()</argsstring>
+        <name>initGNSSRO</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialization method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="62" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="62" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1ae10c47bcebba81648835ef53c25cbca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.SpyPayload1s</definition>
+        <argsstring>()</argsstring>
+        <name>SpyPayload1s</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method spy the payload milbus for 1 second </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="91" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="91" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a2120275b5b90f64e9a813d8c25742973" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.SwitchOnGNSSAndSpy1s</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchOnGNSSAndSpy1s</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method Switch ON the GNSSRO and spy the payload milbus for 1 second </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="119" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="119" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af2ef128d35d369063be5b06aa695b377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.ModifyGNSSforSA1</definition>
+        <argsstring>()</argsstring>
+        <name>ModifyGNSSforSA1</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method Modify GNSS-RO-unitID 1553 responses </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="142" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="142" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a3693233f1814bbb8dbbd1875801841b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.ModifyGNSSforSA2</definition>
+        <argsstring>()</argsstring>
+        <name>ModifyGNSSforSA2</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method Modify GNSS-RO-unitID 1553 responses </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="171" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="171" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a93b8a5be27cffcf814d549b8737adf33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_01.SwitchOffGNSSAndSpy1s</definition>
+        <argsstring>()</argsstring>
+        <name>SwitchOffGNSSAndSpy1s</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method Switch Off the GNSSRO and spy the payload milbus for 1 second </para>        </detaileddescription>
+        <inbodydescription>
+<para>Restoring default values </para>        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="197" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="197" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>JavaLib for GNSSRO tests. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>createdpackage.GNSSRO_01</label>
+        <link refid="classcreatedpackage_1_1_g_n_s_s_r_o__01"/>
+      </node>
+    </collaborationgraph>
+    <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" line="40" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_01.java" bodystart="40" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af5413e6fb6aac922c3db3a5424bbc972" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>initGNSSRO</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1af2ef128d35d369063be5b06aa695b377" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>ModifyGNSSforSA1</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a3693233f1814bbb8dbbd1875801841b9" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>ModifyGNSSforSA2</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1ae10c47bcebba81648835ef53c25cbca6" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>SpyPayload1s</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a93b8a5be27cffcf814d549b8737adf33" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>SwitchOffGNSSAndSpy1s</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__01_1a2120275b5b90f64e9a813d8c25742973" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_01</scope><name>SwitchOnGNSSAndSpy1s</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

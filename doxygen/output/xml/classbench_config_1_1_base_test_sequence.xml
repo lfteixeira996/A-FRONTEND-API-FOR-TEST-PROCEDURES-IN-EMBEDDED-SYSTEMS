@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classbench_config_1_1_base_test_sequence" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>benchConfig::BaseTestSequence</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Sequence</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1ad36cb7812612f9bb17c3c75bf9e1a2f5" prot="public" static="no" mutable="no">
+        <type><ref refid="classbench_config_1_1_base_test_sequence" kindref="compound">BaseTestSequence</ref></type>
+        <definition>BaseTestSequence benchConfig.BaseTestSequence.mySelf</definition>
+        <argsstring></argsstring>
+        <name>mySelf</name>
+        <initializer>= this</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attribute that points to instance of this class. This is an awful hack for the fact that simops interpreter is not able to interpret &quot;this&quot; or to call methods from inherited classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="56" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1a8759bbccd9a64fec851c87b6312a592d" prot="public" static="no" mutable="no">
+        <type>final CswConfig</type>
+        <definition>final CswConfig benchConfig.BaseTestSequence.cswConfig</definition>
+        <argsstring></argsstring>
+        <name>cswConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CSW configuration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="59" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1aab80477391f01f40c27be8e97ef465af" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean benchConfig.BaseTestSequence.headerPrinted</definition>
+        <argsstring></argsstring>
+        <name>headerPrinted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>indicates if header of the test has already been printed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="62" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1a984dfc16efd37c40ee1b7ee8181ab7b0" prot="protected" static="no" mutable="no">
+        <type>StartBenchStrategy</type>
+        <definition>StartBenchStrategy benchConfig.BaseTestSequence.startStrategy</definition>
+        <argsstring></argsstring>
+        <name>startStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strategy for starting the simulator and the CSW </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="65" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1aac53fd46779e11407797d2ce47543ab1" prot="protected" static="no" mutable="no">
+        <type>InitCswStrategy</type>
+        <definition>InitCswStrategy benchConfig.BaseTestSequence.initCswStrategy</definition>
+        <argsstring></argsstring>
+        <name>initCswStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strategy for initialising the CSW </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="68" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1aa71a1b6cec2dc9b18017cf3798600304" prot="protected" static="no" mutable="no">
+        <type>InitTestEnvStrategy</type>
+        <definition>InitTestEnvStrategy benchConfig.BaseTestSequence.initTestEnvStrategy</definition>
+        <argsstring></argsstring>
+        <name>initTestEnvStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strategy for initialising the test environment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="71" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1a7989a74b654bc21ae8e531e1d753215d" prot="protected" static="no" mutable="no">
+        <type>InitEqptStrategy</type>
+        <definition>InitEqptStrategy benchConfig.BaseTestSequence.initEqptStrategy</definition>
+        <argsstring></argsstring>
+        <name>initEqptStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strategy for initialising equipments </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="74" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbench_config_1_1_base_test_sequence_1aaa5dc69430a328be66e0b357574b0453" prot="protected" static="no" mutable="no">
+        <type>EndCheckStrategy</type>
+        <definition>EndCheckStrategy benchConfig.BaseTestSequence.endCheckStrategy</definition>
+        <argsstring></argsstring>
+        <name>endCheckStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strategy for performing the final checks </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="77" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1af5ed50ef2f51ec752061596b4b868029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>benchConfig.BaseTestSequence.BaseTestSequence</definition>
+        <argsstring>()</argsstring>
+        <name>BaseTestSequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor of the sequence. It parses command line arguments and creates the log file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="82" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="82" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1aa09f4eadf865f18954247f51ecd253a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <exceptions> throws TestError     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialises the bench (<ref refid="" kindref="compound">BenchConfig</ref>) and project (<ref refid="" kindref="compound">ProjectConfigCommon</ref>) configuration and sets the strategies for starting the test by retrieving them from <ref refid="" kindref="compound">TestConfigMap</ref>.</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="170" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="170" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a87060b3ab7a50dd1a9085956bb35f1a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.init</definition>
+        <argsstring>(InitTestConfigE testConfig)</argsstring>
+        <name>init</name>
+        <param>
+          <type>InitTestConfigE</type>
+          <declname>testConfig</declname>
+        </param>
+        <exceptions> throws TestError      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialises the bench (<ref refid="" kindref="compound">BenchConfig</ref>) and project (<ref refid="" kindref="compound">ProjectConfigCommon</ref>)configuration and sets the specified strategies for starting the test.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>testConfig</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>test configuration containing strategies </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="186" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="186" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a1ceb406f3824f594afe2ccbffd3ff251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <exceptions> throws TestError      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts the test by performing the following actions: <orderedlist>
+<listitem>
+<para>start the NSVF bench </para></listitem>
+<listitem>
+<para>load and start the CSW </para></listitem>
+<listitem>
+<para>initialise the CSW (includes handling of initialisation breakpoints) </para></listitem>
+<listitem>
+<para>initialise the test environment </para></listitem>
+<listitem>
+<para>check boot events </para></listitem>
+<listitem>
+<para>initialise equipments </para></listitem>
+</orderedlist>
+</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="222" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="222" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a75b96e9e471d56764db1825ce25a1426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.launchDebugger</definition>
+        <argsstring>()</argsstring>
+        <name>launchDebugger</name>
+        <exceptions> throws TestError     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Launch Data Display Debugger (DDD) <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="260" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="260" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a49710f0c34b7ccf8669a058749103fc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.restartCsw</definition>
+        <argsstring>(RebootStrategy strategy)</argsstring>
+        <name>restartCsw</name>
+        <param>
+          <type>RebootStrategy</type>
+          <declname>strategy</declname>
+        </param>
+        <exceptions> throws TestError      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restarts the CSW by performing a reboot. Also initialises the CSW as defined by the strategy <ref refid="classbench_config_1_1_base_test_sequence_1aac53fd46779e11407797d2ce47543ab1" kindref="member">initCswStrategy</ref> and checks for boot events.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the reboot strategy to be applied </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="276" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="276" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a8e3d35802313f0f8874c3b8c3c1a0241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <exceptions> throws TestError      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs final checks after test execution and stops the bench.</para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="293" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="293" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1aa6a3d1a846c4bde913b70f0ef445442d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.setInitCswStrategy</definition>
+        <argsstring>(InitCswStrategy initCswStrategy)</argsstring>
+        <name>setInitCswStrategy</name>
+        <param>
+          <type>InitCswStrategy</type>
+          <declname>initCswStrategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the Init CSW Strategy <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>initCswStrategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="312" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="312" bodyend="314"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a4d780719e88ed823af26f5525d0a8700" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean benchConfig.BaseTestSequence.isCoverageInstrumented</definition>
+        <argsstring>()</argsstring>
+        <name>isCoverageInstrumented</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks for the INST argument in the parsed command line arguments.</para><para><simplesect kind="return"><para>true if INST argument is given </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="120" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="120" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbench_config_1_1_base_test_sequence_1a971e37e22e2583a7d970d73402ad1748" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void benchConfig.BaseTestSequence.createLogFile</definition>
+        <argsstring>(final String logDirName)</argsstring>
+        <name>createLogFile</name>
+        <param>
+          <type>final String</type>
+          <declname>logDirName</declname>
+        </param>
+        <exceptions> throws TestError      </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create log file</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logDirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>log directory name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>TestError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="139" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="139" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for all SW validation test cases.<linebreak/>
+</para><para>The base class takes care of the necessary actions for initialising and closing a test, including <itemizedlist>
+<listitem>
+<para>parsing command line arguments to configure the test </para></listitem>
+<listitem>
+<para>starting the NSVF bench </para></listitem>
+<listitem>
+<para>loading, starting and initialising the CSW </para></listitem>
+<listitem>
+<para>initialising the test environment </para></listitem>
+<listitem>
+<para>initialising equipments </para></listitem>
+<listitem>
+<para>performing final checks after test execution and freeing resources </para></listitem>
+</itemizedlist>
+The implementation of the initialisation actions is defined by strategies (<ndash/>&gt; Strategy pattern), that are passed within the InitTestConfig parameter of the <ref refid="classbench_config_1_1_base_test_sequence_1a87060b3ab7a50dd1a9085956bb35f1a9" kindref="member">init(InitTestConfigE)</ref> method.<linebreak/>
+ <linebreak/>
+ <bold>NOTES ON USAGE:</bold> All derived test classes must call the following methods in this order for correct initialisation of the test: <orderedlist>
+<listitem>
+<para><ref refid="classbench_config_1_1_base_test_sequence_1a87060b3ab7a50dd1a9085956bb35f1a9" kindref="member">init(InitTestConfigE)</ref> or <ref refid="classbench_config_1_1_base_test_sequence_1aa09f4eadf865f18954247f51ecd253a4" kindref="member">init()</ref> for predefined configuration </para></listitem>
+<listitem>
+<para><ref refid="classbench_config_1_1_base_test_sequence_1a1ceb406f3824f594afe2ccbffd3ff251" kindref="member">start()</ref> </para></listitem>
+</orderedlist>
+After execution of all test steps the following method must be called to close the test: <itemizedlist>
+<listitem>
+<para><ref refid="classbench_config_1_1_base_test_sequence_1a8e3d35802313f0f8874c3b8c3c1a0241" kindref="member">end()</ref> </para></listitem>
+</itemizedlist>
+</para><para><simplesect kind="author"><para>Steffens </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Sequence</label>
+      </node>
+      <node id="0">
+        <label>benchConfig.BaseTestSequence</label>
+        <link refid="classbench_config_1_1_base_test_sequence"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>StartBenchStrategy</label>
+      </node>
+      <node id="3">
+        <label>Sequence</label>
+      </node>
+      <node id="2">
+        <label>benchConfig.BaseTestSequence</label>
+        <link refid="classbench_config_1_1_base_test_sequence"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#endCheckStrategy</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>#startStrategy</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>#initCswStrategy</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>#initEqptStrategy</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>#initTestEnvStrategy</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+mySelf</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>InitCswStrategy</label>
+      </node>
+      <node id="8">
+        <label>InitTestEnvStrategy</label>
+      </node>
+      <node id="4">
+        <label>EndCheckStrategy</label>
+      </node>
+      <node id="7">
+        <label>InitEqptStrategy</label>
+      </node>
+    </collaborationgraph>
+    <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" line="50" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/benchConfig/BaseTestSequence.java" bodystart="50" bodyend="316"/>
+    <listofallmembers>
+      <member refid="classbench_config_1_1_base_test_sequence_1af5ed50ef2f51ec752061596b4b868029" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>BaseTestSequence</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a971e37e22e2583a7d970d73402ad1748" prot="private" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>createLogFile</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a8759bbccd9a64fec851c87b6312a592d" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>cswConfig</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a8e3d35802313f0f8874c3b8c3c1a0241" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>end</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aaa5dc69430a328be66e0b357574b0453" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>endCheckStrategy</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aab80477391f01f40c27be8e97ef465af" prot="private" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>headerPrinted</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aa09f4eadf865f18954247f51ecd253a4" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>init</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a87060b3ab7a50dd1a9085956bb35f1a9" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>init</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aac53fd46779e11407797d2ce47543ab1" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>initCswStrategy</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a7989a74b654bc21ae8e531e1d753215d" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>initEqptStrategy</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aa71a1b6cec2dc9b18017cf3798600304" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>initTestEnvStrategy</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a4d780719e88ed823af26f5525d0a8700" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>isCoverageInstrumented</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a75b96e9e471d56764db1825ce25a1426" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>launchDebugger</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1ad36cb7812612f9bb17c3c75bf9e1a2f5" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>mySelf</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a49710f0c34b7ccf8669a058749103fc1" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>restartCsw</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1aa6a3d1a846c4bde913b70f0ef445442d" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>setInitCswStrategy</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a1ceb406f3824f594afe2ccbffd3ff251" prot="public" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>start</name></member>
+      <member refid="classbench_config_1_1_base_test_sequence_1a984dfc16efd37c40ee1b7ee8181ab7b0" prot="protected" virt="non-virtual"><scope>benchConfig::BaseTestSequence</scope><name>startStrategy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

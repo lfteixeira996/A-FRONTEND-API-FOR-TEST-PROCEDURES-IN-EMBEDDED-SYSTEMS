@@ -1,0 +1,102 @@
+/**
+ * @mainpage Master's Thesis Project Documentation
+ *
+ * <a href="introduction.html">Introduction</a> @n
+ * <a href="acronyms.html">Acronyms</a> @n
+ * <a href="strategy.html">Validation Test Definition</a> @n
+ * <a href="changelog.html">Available Keywords</a> @n
+ * <a href="hierarchy.html">Class Details</a> @n
+ *
+ */
+
+/************************************************************************/
+/** @page introduction Introduction
+ *
+ * @section purpose_sec Purpose
+ * This page intends to be the manual used by the testers to develop tests. @n 
+ * @n
+ * The purpose of this page is to provide the available keywords and all the information related to them.@n
+ * @n
+ * In order to develop a test, the tester shall use the available keywords on "Available Keywords" tab.@n 
+ * @n
+ * For more information about them, "Class Details" tab shall be consulted.@n
+ * @n
+ * For more information about how to develop a test see "Validation Tests Definition" tab or the documentation.@n
+ * @n
+ *
+*/
+
+/************************************************************************/
+/** @page acronyms Acronyms
+ *
+ * 
+ * - API: 	 Application Programming Interface
+ * - AOCS: 	 Attitude and Orbit Control System
+ * - DHS: 	 Data Handling System
+ * - CPU: 	 Central Processing Unit
+ * - CSW: 	 Central Software
+ * - DMS: 	 Data Management System
+ * - EEPROM: Electrically Erasable Programmable Read Only Memory
+ * - EID: 	 Event IDentifier
+ * - ERC32:  Embedded Real time 32-bit RISC Computer
+ * - FID:    %Failure IDentifier
+ * - HW: 	 HardWare
+ * - I/O: 	 Input/Output
+ * - KP: 	 Key Point 
+ * - NSVF: 	 Numerical Software Validation Facility
+ * - OBC: 	 On-Board Computer
+ * - OBCP: 	 On-Board Control Procedures
+ * - OBS: 	 On-Board Software
+ * - OBSW: 	 On-Board SoftWare
+ * - OBT: 	 On-Board %Time
+ * - PID: 	 Process IDentifier
+ * - PF: 	 Platform
+ * - PL: 	 Payload
+ * - PR: 	 Production Responsible
+ * - PUS: 	 %Packet Utilisation Standard
+ * - RAM: 	 Random Access Memory
+ * - RTEMS:  Real %Time Executive for Multiprocessor Systems
+ * - RTOS: 	 Real %Time Operating System
+ * - SDD-DDD:Software Design Document - Detailed Design Document
+ * - SGM: 	 Safe Guard Memory
+ * - SSMM: 	 Solid State Mass Memory
+ * - SUITP:  Software Unit and Integration Test Plan
+ * - SW: 	 SoftWare
+ * - TC: 	 TeleCommand
+ * - TM: 	 TeleMetry
+ *
+ *
+ */
+
+/************************************************************************/
+/** @page strategy Validation Test Definition
+ * @section strateg_sec_1 Test design
+ * This section describes how to develop a new test and run it.
+ *
+ * @section strateg_sec_2 Strategy
+ *
+ * @par Update Information
+ * When the development of a test starts, the testers shall be sure that the information that are using is updated.@n
+ * To ensure this, the command "python update_info.py" must be run.  	 
+ *
+ * @par Generate the java test
+ * To generate the java test, the following command shall be invoked "python app.py name_of_the_test".
+ * @n
+ * If no error message is displayed, the java test was generated with no errors and can be run.@n
+ * Else, take a look again the keywords used and make sure that they exist in the html page (case sensitive). 
+ *
+ * @n@n
+ * The generated tests can by found in /w_space/pisa/test/pisa/nsvf/ folder.
+ */
+
+
+/************************************************************************/
+/** @page changelog Available Keywords
+ *
+<table>
+<caption id="multi_row"> </caption>
+<tr><th>Keywords 				<th>Package                  		  	  
+</table>
+
+
+*/

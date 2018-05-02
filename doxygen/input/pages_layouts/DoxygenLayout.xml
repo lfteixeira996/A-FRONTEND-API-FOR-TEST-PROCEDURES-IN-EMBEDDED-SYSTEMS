@@ -1,0 +1,120 @@
+<doxygenlayout version="1.0">
+  <!-- Navigation index tabs for HTML output -->
+  <navindex>
+    <tab type="mainpage" visible="yes" title="Main Page"/>
+    
+    <!-- [START] Some user defined tabs -->
+    <tab type="user" url="introduction.html" title="Introduction"/>                                    
+    <tab type="user" url="acronyms.html"     title="Acronyms"/>         
+    <tab type="user" url="strategy.html"     title="Validation Tests Definition"/>   
+    <tab type="user" url="changelog.html"    title="Available Keywords"/>    
+    <tab type="hierarchy"    visible="yes" title="Class Details"    intro="Full details for each class can be find here"/>
+      
+  </navindex>
+
+  <!-- Layout definition for a class page -->
+  <class>
+    <briefdescription   visible="yes"/>
+    <!-- <includes           visible="$SHOW_INCLUDE_FILES"/> -->
+    <!-- <inheritancegraph   visible="$CLASS_GRAPH"/> -->
+    <!-- <collaborationgraph visible="$COLLABORATION_GRAPH"/> -->
+    <detaileddescription title="class_detaileddescription"/>
+    <memberdecl>
+      <nestedclasses visible="yes" title="class_nestedclasses"/>
+      <publictypes                 title="class_publictypes"/>
+      <services                    title="class_services"/>
+      <interfaces                  title="class_interfaces"/>
+      <publicslots                 title="class_publicslots"/>
+      <signals                     title="class_signals"/>
+      <publicmethods               title="class_publicmethods"/>
+      <publicstaticmethods         title="class_publicstaticmethods"/>
+      <publicattributes            title="class_publicattributes"/>
+      <publicstaticattributes      title="class_publicstaticattributes"/>
+      <protectedtypes              title="class_protectedtypes"/>
+      <protectedslots              title="class_protectedslots"/>
+      <protectedmethods            title="class_protectedmethods"/>
+      <protectedstaticmethods      title="class_protectedstaticmethods"/>
+      <protectedattributes         title="class_protectedattributes"/>
+      <protectedstaticattributes   title="class_protectedstaticattributes"/>
+      <packagetypes                title="class_packagetypes"/>
+      <packagemethods              title="class_packagemethods"/>
+      <packagestaticmethods        title="class_packagestaticmethods"/>
+      <packageattributes           title="class_packageattributes"/>
+      <packagestaticattributes     title="class_packagestaticattributes"/>
+      <properties                  title="class_properties"/>
+      <events                      title="class_events"/>
+      <privatetypes                title="class_privatetypes"/>
+      <privateslots                title="class_privateslots"/>
+      <privatemethods              title="class_privatemethods"/>
+      <privatestaticmethods        title="class_privatestaticmethods"/>
+      <privateattributes           title="class_privateattributes"/>
+      <privatestaticattributes     title="class_privatestaticattributes"/>
+      <friends                     title="class_friends"/>
+      <related                     title="class_related_title" subtitle="class_related_subtitle"/>
+      <membergroups visible="yes"/>
+    </memberdecl>
+    <memberdef>
+      <inlineclasses title="class_inlineclasses"/>
+      <typedefs      title="class_typedefs"/>
+      <enums         title="class_enums"/>
+      <services      title="class_services"/>
+      <interfaces    title="class_interfaces"/>
+      <constructors  title="class_constructors"/>
+      <functions     title="class_functions"/>
+      <related       title="class_related"/>
+      <variables     title="class_variables"/>
+      <properties    title="class_properties"/>
+      <events        title="class_events"/>
+    </memberdef>
+    <allmemberslink visible="yes"/>
+    <usedfiles      visible="$SHOW_USED_FILES"/>
+    <authorsection  visible="yes"/>
+  </class>
+
+  <!-- Layout definition for a namespace page -->
+
+
+  <!-- Layout definition for a file page -->
+  <file>
+    <briefdescription visible="yes"/>
+    <!-- <includes         visible="$SHOW_INCLUDE_FILES"/> -->
+    <!-- <includegraph     visible="$INCLUDE_GRAPH"/> -->
+    <!-- <includedbygraph  visible="$INCLUDED_BY_GRAPH"/> -->
+    <sourcelink       visible="yes"/>
+    <memberdecl>
+      <classes        visible="yes" title="file_classes"/>
+      <namespaces     visible="yes" title="file_namespaces"/>
+      <constantgroups visible="yes" title="file_constantgroups"/>
+      <defines                      title="file_defines"/>
+      <typedefs                     title="file_typedefs"/>
+      <enums                        title="file_enums"/>
+      <functions                    title="file_functions"/>
+      <variables                    title="file_variables"/>
+      <membergroups  visible="yes"/>
+    </memberdecl>
+    <detaileddescription title="file_detaileddescription"/>
+    <memberdef>
+      <inlineclasses title="file_inlineclasses"/>
+      <defines       title="file_defines"/>
+      <typedefs      title="file_typedefs"/>
+      <enums         title="file_enums"/>
+      <functions     title="file_functions"/>
+      <variables     title="file_variables"/>
+    </memberdef>
+    <authorsection/>
+  </file>
+
+  <!-- Layout definition for a group page -->
+  
+
+  <!-- Layout definition for a directory page -->
+  <directory>
+    <briefdescription visible="yes"/>
+    <directorygraph   visible="yes"/>
+    <memberdecl>
+      <dirs  visible="yes"/>
+      <files visible="yes"/>
+    </memberdecl>
+    <detaileddescription title="directory_detaileddescription"/>
+  </directory>
+</doxygenlayout>

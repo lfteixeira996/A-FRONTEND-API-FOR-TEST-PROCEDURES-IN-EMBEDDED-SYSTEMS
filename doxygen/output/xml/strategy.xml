@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="strategy" kind="page">
+    <compoundname>strategy</compoundname>
+    <title>Validation Test Definition</title>
+    <detaileddescription>
+<sect1 id="strategy_1strateg_sec_1">
+<title>Test design</title>
+<para>This section describes how to develop a new test and run it.</para></sect1>
+<sect1 id="strategy_1strateg_sec_2">
+<title>Strategy</title>
+<para><simplesect kind="par"><title>Update Information</title><para>When the development of a test starts, the testers shall be sure that the information that are using is updated.<linebreak/>
+To ensure this, the command &quot;python update_info.py&quot; must be run.</para></simplesect>
+<simplesect kind="par"><title>Generate the java test</title><para>To generate the java test, the following command shall be invoked &quot;python app.py name_of_the_test&quot;. <linebreak/>
+If no error message is displayed, the java test was generated with no errors and can be run.<linebreak/>
+Else, take a look again the keywords used and make sure that they exist in the html page (case sensitive).</para></simplesect>
+<linebreak/>
+<linebreak/>
+The generated tests can by found in /w_space/pisa/test/pisa/nsvf/ folder. </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

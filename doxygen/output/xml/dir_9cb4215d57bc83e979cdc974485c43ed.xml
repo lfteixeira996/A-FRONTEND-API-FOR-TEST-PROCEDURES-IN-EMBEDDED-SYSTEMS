@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9cb4215d57bc83e979cdc974485c43ed" kind="dir">
+    <compoundname>nsvf</compoundname>
+    <innerdir refid="dir_d69805d50384a3fe420035fd610b992a">simopsEnv</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="doxygen/input/s6csw/svf/nsvf/"/>
+  </compounddef>
+</doxygen>

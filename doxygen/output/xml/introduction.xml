@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="introduction" kind="page">
+    <compoundname>introduction</compoundname>
+    <title>Introduction</title>
+    <detaileddescription>
+<sect1 id="introduction_1purpose_sec">
+<title>Purpose</title>
+<para>This page intends to be the manual used by the testers to develop tests. <linebreak/>
+ <linebreak/>
+The purpose of this page is to provide the available keywords and all the information related to them.<linebreak/>
+<linebreak/>
+In order to develop a test, the tester shall use the available keywords on &quot;Available Keywords&quot; tab.<linebreak/>
+ <linebreak/>
+For more information about them, &quot;Class Details&quot; tab shall be consulted.<linebreak/>
+<linebreak/>
+For more information about how to develop a test see &quot;Validation Tests Definition&quot; tab or the documentation.<linebreak/>
+<linebreak/>
+</para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

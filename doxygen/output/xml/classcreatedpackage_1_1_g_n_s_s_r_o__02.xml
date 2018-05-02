@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcreatedpackage_1_1_g_n_s_s_r_o__02" kind="class" language="Java" prot="public">
+    <compoundname>createdpackage::GNSSRO_02</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a36919426789646333ea51328aad13265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_02.initGNSSRO_02</definition>
+        <argsstring>()</argsstring>
+        <name>initGNSSRO_02</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialization method for GNSSRO_02 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" line="58" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" bodystart="58" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a3cf379a7d6d134b08b8f0bb6c595005c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_02.ConfUnitResponses</definition>
+        <argsstring>()</argsstring>
+        <name>ConfUnitResponses</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Acquisition errors Configure units responses so one of the messages to acquire from RT_SA will reply 1553 timeout </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" line="85" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" bodystart="85" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a71c4e2f15a247111cfec9b413a47678f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_02.Modify1553ResponsesSet0</definition>
+        <argsstring>()</argsstring>
+        <name>Modify1553ResponsesSet0</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test vector word and RT status word RT status word indicates TM data is available (bit 7 is set = 1) Vector word indicates that no SA have available telemetry (bits 13..14 are reset = 0) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" line="110" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" bodystart="110" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a7d89cdb0b4793d398b6970fbeb0b99bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void createdpackage.GNSSRO_02.Modify1553ResponsesSet1</definition>
+        <argsstring>()</argsstring>
+        <name>Modify1553ResponsesSet1</name>
+        <exceptions> throws TestError </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test vector word and RT status word RT status word indicatesr no TM data is available (bit 7 is reset = 0) Vector word indicates that all SA have available telemetry (bits 13..14 are set = 1) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" line="143" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" bodystart="143" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>JavaLib for GNSSRO_02 test. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>createdpackage.GNSSRO_02</label>
+        <link refid="classcreatedpackage_1_1_g_n_s_s_r_o__02"/>
+      </node>
+    </collaborationgraph>
+    <location file="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" line="36" column="1" bodyfile="doxygen/input/s6csw/svf/nsvf/simopsEnv/createdpackage/GNSSRO_02.java" bodystart="36" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a3cf379a7d6d134b08b8f0bb6c595005c" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_02</scope><name>ConfUnitResponses</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a36919426789646333ea51328aad13265" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_02</scope><name>initGNSSRO_02</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a71c4e2f15a247111cfec9b413a47678f" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_02</scope><name>Modify1553ResponsesSet0</name></member>
+      <member refid="classcreatedpackage_1_1_g_n_s_s_r_o__02_1a7d89cdb0b4793d398b6970fbeb0b99bf" prot="public" virt="non-virtual"><scope>createdpackage::GNSSRO_02</scope><name>Modify1553ResponsesSet1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
