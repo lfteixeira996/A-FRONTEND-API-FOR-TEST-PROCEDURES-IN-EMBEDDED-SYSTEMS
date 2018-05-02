@@ -32,3 +32,6 @@ systems without having complex test procedures and without creating the illusion
 The proposed case study takes a satellite control application as system under test and entails extending a simple
 simulator for the system component this application interacts with. Atop of these shall be developed test procedures to study whether there are practical limitations of using simple procedures to test complex interactions
 between the satellite control application and its simulated environment.
+
+
+## See more in Wiki
